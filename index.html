@@ -512,8 +512,7 @@
       <div class="container">
         <button
           type="button"
-          onclick="window['dialog'].show();"
-          aria-controls="dialog"
+          onclick="document.getElementById('dialog').showModal();"
           class="button main__save-button"
         >
           <svg viewBox="0 0 39 39">
@@ -534,8 +533,7 @@
       </div>
       <button
         type="button"
-        onclick="window['dialog'].close();"
-          aria-controls="dialog"
+        onclick="document.getElementById('dialog').close();"
         class="button dialog__ok-button"
       >
         <span class="button__text dialog__ok-text">OK</span>
