@@ -512,7 +512,7 @@
       <div class="container">
         <button
           type="button"
-          onclick="document.getElementById('dialog').showModal();"
+          onclick="window['dialog'].showModal()" 
           class="button main__save-button"
         >
           <svg viewBox="0 0 39 39">
@@ -533,7 +533,7 @@
       </div>
       <button
         type="button"
-        onclick="document.getElementById('dialog').close();"
+        onclick="window['dialog'].close()" 
         class="button dialog__ok-button"
       >
         <span class="button__text dialog__ok-text">OK</span>
